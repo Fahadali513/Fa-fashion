@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FA Fashion — Admin Dashboard</title>
+<title>Little Duck — Admin Dashboard</title>
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#0F172A">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230F172A'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='54' font-weight='700' fill='%23D4AF37' text-anchor='middle'%3EFA%3C/text%3E%3C/svg%3E">
@@ -449,7 +449,7 @@
 <div id="loginScreen" style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(140deg,var(--primary),var(--secondary));padding:20px;">
   <div style="width:100%;max-width:400px;background:#fff;border-radius:16px;padding:40px 36px;box-shadow:0 40px 80px -20px rgba(0,0,0,.4);">
     <div style="text-align:center;margin-bottom:28px;">
-      <div style="font-family:var(--font-display);font-size:24px;color:var(--primary);font-weight:700;">FA Fashion</div>
+      <div style="font-family:var(--font-display);font-size:24px;color:var(--primary);font-weight:700;">Little Duck</div>
       <div style="font-family:var(--font-sub);font-size:10px;letter-spacing:.25em;color:var(--accent);margin-top:4px;">ADMIN PANEL</div>
     </div>
 
@@ -487,7 +487,7 @@
 <div id="admin-app" style="display:none;">
   <div class="admin-shell">
     <aside class="admin-sidebar">
-      <div class="admin-logo">FA Fashion<span>ADMIN PANEL</span></div>
+      <div class="admin-logo">Little Duck<span>ADMIN PANEL</span></div>
       <nav class="admin-nav">
         <div class="grp-label">Overview</div>
         <a class="admin-link active" data-admin="dashboard" onclick="showAdminPage('dashboard')"><span class="ico">▤</span> Dashboard</a>
@@ -512,7 +512,7 @@
     <div class="admin-main">
       <div class="admin-topbar">
         <div><h1 id="adminTitle">Dashboard</h1><p class="sub">Welcome back, Fahad — here's what's happening today.</p></div>
-        <div class="admin-profile"><div class="av">FA</div><div><strong>Fahad Ali</strong><span>Store Owner</span></div></div>
+        <div class="admin-profile"><div class="av">FA</div><div><strong>Admin</strong><span>Store Owner</span></div></div>
       </div>
 
       <!-- Dashboard -->
@@ -884,7 +884,7 @@ function loadOffers(){
 }
 function saveOffers(list){ try{ localStorage.setItem(STORE_KEYS.offers, JSON.stringify(list)); }catch(e){} }
 const defaultSettings = {
-  storeName:'FA Fashion', tagline:'Style Beyond Fashion',
+  storeName:'Little Duck', tagline:'Style Beyond Fashion',
   email:'fahadali66927777@gmail.com', phone:'+92 330-6508733',
   address:'12-C Gulberg III, Lahore, Pakistan', city:'Lahore, Pakistan',
   hours:'Mon – Sat: 10:00 AM – 9:00 PM',
@@ -913,7 +913,7 @@ function saveCategories(list){ try{ localStorage.setItem(STORE_KEYS.categories, 
 const defaultContent = {
   heroHeadline:'Wear', heroHeadlineAccent:'Confidence',
   heroSubheadline:'Discover timeless fashion crafted for Men, Women & Kids — where premium materials meet uncompromising design.',
-  aboutStory:"FA Fashion began as a single tailoring counter in Lahore, founded by Fahad Ali on a simple belief: clothing should make people feel more like themselves, not less.\n\nA decade later, that same philosophy shapes every stitch — from our Men's formalwear to Kids' everyday essentials. We work with fewer, better suppliers, and we design for how people actually live.\n\nToday, FA Fashion serves customers across Pakistan and beyond, but the counter mindset never left: every order still gets checked by hand before it ships.",
+  aboutStory:"Little Duck began as a single tailoring counter in Lahore, founded by Fahad Ali on a simple belief: clothing should make people feel more like themselves, not less.\n\nA decade later, that same philosophy shapes every stitch — from our Men's formalwear to Kids' everyday essentials. We work with fewer, better suppliers, and we design for how people actually live.\n\nToday, Little Duck serves customers across Pakistan and beyond, but the counter mindset never left: every order still gets checked by hand before it ships.",
   contactIntro:"Whether it's a question about an order, sizing, or a partnership — our team replies within one business day.",
   styleSectionTitle:'Shop by Style', styleSectionDesc:'From easy weekend layers to festive statement pieces — find the mood, then find the piece.',
   pairsSectionTitle:'Aesthetic Pairs', pairsSectionDesc:'Two pieces, chosen to work together — add the whole look in one tap.'
